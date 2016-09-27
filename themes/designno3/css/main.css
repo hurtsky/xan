@@ -1,0 +1,397 @@
+/*===================================*/
+/*    Design by: Gerome              */
+/*    Coded by:  Gerome              */
+/*    Email: johngerome@gmail.com    */
+/*    John Gerome L. Baldonado       */
+/*===================================*/
+
+body{
+    font-size:      12px;
+    background:     #080808 url('img/body_bg.gif') repeat-y center;
+    color:          #000;
+    font-family:    verdana;
+}
+
+/*------------=[ Containers ]=------------*/
+#headContainer {
+    width:          100%;
+    min-height:     300px;
+    background:     transparent;
+}
+#topContainer {
+    background:     #191919 url('img/top_bg.gif') repeat-x;
+    width:          100%;
+    height:         59px;
+}
+#onlinePlayerContainer{
+    background:     url('img/OnlinePlayer_bg.png') no-repeat;
+    width:          193px;
+    height:         101px;
+    margin:         0 auto;
+    margin-top:     -15px;
+    text-align:     center;
+    padding:        60px 0px 0px 0px;
+}
+#bannerContainer{
+    width:          100%;
+    min-height:     300px;
+    overflow:       hidden;
+}
+#menuContainer{
+    width:          900px;
+    background:     url('img/MainMenu_bg.png') repeat-x;
+    padding:        10px;
+    -moz-border-radius: 	5px 5px 5px 5px;
+	-webkit-border-radius:  5px 5px 5px 5px;
+}
+#leftbarContainer {
+    min-height:     200px;
+    
+}
+#mainContentContainer {
+    min-height:     600px;
+    background:     #cf1a1a;
+    margin:         0px 0px 0px -60px;
+    border:         12px solid #403a3a;
+}
+#rightbarContainer {
+    min-height:     150px;
+    margin:         0px 0px 0px -4px;
+}
+#rightbarContent {
+    background:     url('img/rightbarContent_bg.png') repeat-y;
+    width:          100%;
+    min-height:     300px;
+}
+#showcaseContainer {
+    width:          100%;
+    height:         327px;
+    background:     url('img/showcase_bg.gif') no-repeat;
+}
+#woeSchedContainer {
+    width:          260px;
+    height:         325px;
+    background:     url('img/woesched-bg.gif') no-repeat;
+    float:          right;
+}
+#slideShowContainer {
+    width:          252px;
+    height:         195px;
+    background:     #252222;
+    float:          left;
+    margin:         30px 0px 0px 11px;
+    padding:        5px;
+}
+#footer {
+    width:          100%;
+}
+#creditsContainer {
+    width:          599px;
+    height:         68px;
+    background:     url('img/Credits_bg.png') no-repeat;
+    margin:         0 auto;
+    
+}
+#copyrightContainer {
+    width:          560px;
+    height:         68px;
+    background:     #403a3a;
+    margin:         -1px 0px 0px 181px;
+
+}
+#PvpRankContainer {
+    width:          235px;
+    min-height:     200px;
+    background:     #ac1414;
+    float:          right;
+}
+#PvpRankTop {
+    width:          235px;
+    height:         60px;
+    background:     #ac1616 url('img/pvpRanking_bg.png') no-repeat;
+    padding:        70px 0px 0px 0px;
+    color:          #f4f4f4;
+    font-size:      10px;
+    text-align:     center;
+}
+#nuConteiner{
+    width:          232px;
+    min-height:     200px;
+    background:     #ac1414;
+    float:          left;
+    overflow:       hidden;
+    padding:        10px;
+    margin:         0px 0px 0px 0px;
+}
+.pom_gom{
+	width:         170px;
+	background:    #cf1a1a;
+	margin:        10px 0px 0px 10px;
+	float:         left;
+	-moz-border-radius: 	5px 5px 5px 5px;
+    -webkit-border-radius:  5px 5px 5px 5px;	
+}
+
+
+/*--------=[ Wrappers ]=---------------*/
+#mainContentWrapper {   padding: 20px 0px 0px 0px;}
+#rightbarWrapper    {   margin: 0px 15px 0px 16px; overflow: hidden; }
+#contentWrapper     {   margin: 0px 0px 20px 20px; width: 500px; overflow: auto; float: left; }
+/*--------=[ Online Player ]= -----------*/
+#onlinePlayerContainer b { font-size:18px; color:#ccc; }
+/*------- =[ Server Status ]= -----------*/
+ul#serverStatus     { list-style:none; margin: 15px 0px 0px 0px;  }
+ul#serverStatus li  { float:left; }
+
+ul#serverStatus li#lblChar  { background:url('img/lblChar.png') no-repeat; width:110px; height:15px; margin: 0px 10px 0px 0px;}
+ul#serverStatus li#lblLogin { background:url('img/lblLogin.png') no-repeat; width:110px; height:15px;  margin: 0px 20px 0px 0px;}
+ul#serverStatus li#lblMap   { background:url('img/lblMap.png') no-repeat; width:111px; height:15px;  margin: 0px 10px 0px 0px;}
+
+li#lblChar img  { margin: -10px 0px 0px 60px;}
+li#lblLogin img {margin: -40px 0px 0px 70px;}
+li#lblMap img   {margin: -10px 0px 0px 50px;}
+/*-------- =[ Banner ]= ---------------*/
+/* ....*/
+/*---------=[ Main Menu ]= ------------*/
+ul#topmenu      { list-style-type: none; }
+ul#topmenu li   { float: left; color: #fff; }
+/*---------=[ Leftbar ]=------------*/
+#qckLogin, #qckVote4Points, #qckWriteReview, #qckDonationInfo {   width: 270px; height: 67px; margin: 0px -150px 10px 10px; float: right; }
+#qckLogin       {   background: url('img/qckLogin_bg.png') no-repeat; }
+#qckVote4Points {   background: url('img/qckVote4P_bg.png') no-repeat; }
+#qckWriteReview {   background: url('img/qckWriteReview_bg.png') no-repeat; }
+#qckDonationInfo{  background: url('img/qckDonationInfo.png') no-repeat; }
+#MoreLinks      { margin:  0px 0px 0px 0px; float:right; }
+#MoreLinks img  { width: 175px; height: 100px;}
+#downloadClient, #HelpDesk { width: 189px; height: 100px; margin: 0px 55px 0px 0px;}
+.leftlink       { width: 189px; height: 100px; margin: 0px 55px 0px 0px; }
+/*..*/
+#downloadClient { background: url('img/btnDownloadClient.png') no-repeat; }
+#HelpDesk       { background: url('img/btnHelpDesk.png') no-repeat; } 
+/*..Hover*/
+#downloadClient:hover   { background: url('img/btnDownloadClient_hover.png') no-repeat; }
+#HelpDesk:hover         { background: url('img/btnHelpDesk_hover.png') no-repeat; } 
+/*---------=[ Slideshow ]=-----------*/
+#slideshow img  { width:250px; height:194px;}
+/*---------=[ Righbar]=--------------*/
+#rightTop       { width:213px; height:21px; background: url('img/rightTop.png') no-repeat; }
+#rightBottom    { width: 213px; height: 21px; background: url('img/rightBottom_bg.png') no-repeat; }
+
+/*---------=[ Copyright ]=-----------*/
+#copyrightContainer p { text-align:center; color:#bfbebe; font-size:10px; margin:  10px 0px 0px 0px; }
+#copyrightContainer a { color: #cf1a1a; }
+
+
+/*---------=[ News and Updates ]=----*/
+#nuConteiner a      { color:#fda92f; text-decoration: none; }
+ul.item             { background:#cf1a1a; list-style-type:none; padding: 5px; margin:0;  overflow:hidden;}
+ul.item li          { float: left; font-family: verdana; padding: 0; margin:0; }
+ul.item li.type ,ul#item li#type, ul#item li#postedby, ul#item li#date { font-size: 9px;} 
+ul.item li.title    { font-size: 14px; width: 100%; font-weight: bold; color: #e9f6ac;}
+ul.item li.postedby { margin: 0px 10px 0px 0px; color:#ebe7c7; }
+ul.item li.date     { color:#ebe7c7;}
+
+ul.itemContentContainer     { width: 222px; background:#cf1a1a; list-style:none; overflow:hidden; border-bottom: 1px solid #ac1414; padding: 5px; margin:0px 0px 0px 0px;}
+ul.itemContentContainer li  { padding:0px; font-family: monaco; color:#ebe7c7;}
+li.itemContent              { font-size: 11px; margin-bottom: -20px; }
+li.itemContent p            { margin: 5px 0px 15px 0px; color:#ffefef; font-family: verdana; }
+
+.eventType, .newsType, .updateType  {  font-size: 9px; text-align:center; color:#fff; padding:2px; margin: 0px 10px 0px 0px; -moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px;  }
+.eventType                          { width:30px; background: #8ad8e5; }
+.newsType                           { width:30px; background: #fda92f; }
+.updateType                         { width:40px; background: #9fc740; }
+/*--------=[ POM GOM ]=-----------*/
+#pom_gom ul         {width: 100%;background: #cc3333;margin: -2px 0px 0px -2px;overflow: hidden;-moz-border-radius: 	5px 5px 0px 0px;-webkit-border-radius:  5px 5px 0px 0px;}
+#pom_gom ul li      {background: #ac1414; font-size: 10px;}
+ul.pgom             { float: left; margin: 0px 0px 10px 0px; list-style-type: none; background: transparent;}
+ul.pgom li          {  background: transparent; float: left;}
+ul.pgom li img.pom      { width: 100px; height: 100px; margin: 0px 0px 10px -10px;}
+ul.pgom li img.gom      { width: 25px; height: 25px; margin: 0px 0px 10px 20px;}
+ul.pgom li.lbl      { color: #e9e8e8; width: 140px; background: #8c0e0e; padding:2px; margin:5px 0px 0px 0px;}
+ul.pgom li.lbl b    { color: #e9e8e8; }
+#pom_gom ul li,.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { /*....*/}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited  { color: #fff; text-decoration: none; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited     { color: #000; text-decoration: none; background: #cf1a1a;}
+.ui-widget :active                                                          { outline: none; }
+/*..Logout..*/
+#logout { padding: 5px; background: #000; color: #fff; margin: 0px 0px 10px 0px; }
+/*-------=[ Pvp Rankings ]=--------*/
+#Rankings       { list-style: none; margin: 0px 0px 0px 10px; background: none; padding: 5px; }
+#Rankings td    { color: #f4f4f4; text-align: center;}
+td.pvprank      { width: 30px; margin: 0px 0px 0px 10px;}
+td.pvpname      { width: 90px; }
+th.Kills, th.Deaths, td.pvpkills, td.pvpdeaths  { background:#8d1111; padding: 5px; }
+th.Kills, td.pvpkills         { color:#eb994e;  }
+th.Deaths, td.pvpdeaths       { color:#fe0404;  }
+/*..See More */
+#seemore { font-size:8px; color:#ebe7c7; float:right; margin: 10px 10px 0px 0px; }
+#seemore:hover { text-decoration:underline;}
+
+
+
+
+
+
+
+/*------- =[ Classes ]= ----------------*/
+.cleanMP    { margin:0;padding:0; }
+.cleanM     { margin:0; }
+.cleanP     { padding:0; }
+.hoverQck   { margin: 0px 20px 0px 0px; background:red; }
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------*
+ *                      Overide Flux CSS 
+ *-----------------------------------------------------------------------*/
+h3,h2,strong,p,p label,ol li,ul li,b,span,span.balance-text{
+    color: #000;
+}
+h2 span.shop-server-name{ color: #ec1b1b;}
+button strong { color:#fff; }
+#sidebar h4, #sidebar b,#sidebar label, #sidebar p, .credit-balance .balance-text, .credit-balance .balance-amount, .loginbox-admin-menu strong, .horizontal-table td span {
+    color:              #000;
+}.credit-balance .balance-amount {
+	font-weight:       bold;
+}
+.credit-balance {
+	float:             right;
+	display:           inline-block;
+	padding:           10px;
+	color:             #000;
+	background-color:  #eee;
+	border:            1px solid #ccc;
+    margin:            2px;
+}
+#loginbox { margin: 8px; width: 94%; }
+#loginbox span{
+    color:              #000;
+    background:         #fff;
+}.loginbox-admin-menu{
+    padding:            10px;
+}
+.notice strong{
+    color:              #da0909;
+}
+h2{
+    color:              #f4f4f4;
+    background:         #403a3a;
+    padding:            5px;
+}p.message{
+    background:         #fad4d4;
+    border:             1px solid #6d0909;
+    color:              red;
+}
+#submenu{
+    margin:             10px 10px 10px 10px;
+    text-align:         center;
+}
+.sub-menu-item, .current-sub-menu {
+     color: #fff;
+     padding: 5px;
+}
+.current-sub-menu,.sub-menu-item:hover{
+    color:              #fff;
+    background:         #ac1717;
+}
+
+.search-form label, .search-form2 label {
+	display:           inline-block;
+	margin:            0 0 3px 0;
+	font-size:         8pt;
+	font-style:        italic;
+	color:             #000;
+}
+
+.horizontal-table th, .horizontal-table td {
+	font-size:         10px;
+	border:            1px solid #ddd;
+}
+.vertical-table th {
+	padding:           5px 10px;
+	background-color:  #fff;
+}
+table{
+    background:         #fff;
+}
+.top-ranked td {
+	font-weight:       bold;
+	color:             #000;
+	background-color:  #FFF8DC;
+}.top-ranked td strong{
+    color:              #71c0e5;
+}
+
+/*****************************
+ * Textbox,Checkbox, Etc..
+ ****************************/
+input[type=text], input[type=password], input[type=file], textarea {
+	font-family:       "Lucida Grande", "Lucida Sans", Verdana, Tahoma, sans-serif;
+	padding:           4px;
+	font-size:         10pt;
+	color:             #444;
+	border:            1px solid #ccc;
+	outline-width:     0;
+  
+}select{
+    border:             1px solid #ccc;
+}
+input[type=button], input[type=submit], button[type=submit] {
+    background:         #000;
+    color:              #fff;
+    border:             1px solid #000;
+    cursor:             pointer;
+    -moz-border-radius: 	5px 5px 5px 5px;
+	-webkit-border-radius:  5px 5px 5px 5px;
+    padding:            5px;
+}
+
+.pages .page-num {
+	padding:           0 5px;
+}
+
+.pages .current-page {
+	color:             #fff;
+    background:        #ac1717;
+	font-weight:       bold;
+}
+
+
+/******************
+ *  Jump To Page
+ ******************/
+.jump-to-page label{
+    color:          #000;
+}
+
+.important {
+	font-size:     120%;
+	color:         #41aadd;
+}
+.generic-form-table label {
+    color:          #000;
+}
+
+
+
+/*.. Clock Layout */
+.clocl                   { background:#000; overflow:hidden; }
+#server_time             { height: 40px; float: right; margin: -160px 30px 0px 0px;  padding: 0px 0px 0px 0px; text-align: center;}
+#server_time b           { color: #fff; }
+#server_time .clock ul   { list-style: none; margin: -15px 0px 0px 0px; padding: 0px; }
+#server_time .clock ul li{ color: #d2c58b; float: left; margin: 10px -1px 0px 5px; font-size: 20px; font-weight: bold; font-family: verdana;}
+/*...*/
+ul#txtwarp{ list-style-type: none;}
+ul#txtwarp li{ }
+ul#button { list-style-type: none; }
+ul#button  a{ color: #000; }
+#inline_content { background:#000 url('img/user_bg.jpg') no-repeat; text-align: center;}
