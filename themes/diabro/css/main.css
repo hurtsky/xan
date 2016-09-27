@@ -1,0 +1,613 @@
+/*      Design by: Gerome         */
+/*      Coded by; Gerome          */
+/*================================*/
+
+body{
+    font-size: 12px;
+    background: #000 url('img/Background.png') no-repeat top;
+    color: #fff;
+}
+@font-face
+{
+	font-family: Exocet;
+    src: url('font/Exocet1.ttf');
+}
+
+
+/* -- Global Link -- */
+a{ color: #d67400;}
+
+#gerome{
+    background: url('img/bg.png') no-repeat;
+
+}
+#line_top{
+    width: 100%;
+    height: 50px;
+    background: #000;
+    margin-bottom: -30px;
+}
+#banner{
+    margin:  5px 0px -1px 0px;
+}
+#top_a .wrap{
+    overflow: hidden;
+   
+}
+#top_a #server_status{
+    background:  transparent;
+    color: #fff;
+    border: 0px;
+    
+}
+#server_status h1{
+    margin: -16px 0px 0px 150px;
+    font-family: Exocet;
+    text-align: center;
+    
+}
+#top_a #server_status .wrap{
+   width: 550px;
+   background: #000;
+   border: 1px solid #9d2e3b;
+   overflow:  auto;
+   margin: 0px 0px 0px 20px;
+
+}
+#top_a #server_status ul{
+    list-style:  none;
+}
+#top_a #server_status ul li{
+    color: #fff;
+    float: left;
+    padding: 0px;
+    margin-left: 32px;
+}
+#top_a #server_status ul li img{
+    margin-left: 15px;
+}
+
+#server_time{
+    color: #fff;
+    margin-top: -10px;
+	margin-left: 70px;
+	float: left;
+}
+#server_time .wrap{
+    width: 130px;
+    background: black;
+    color: #fff;
+    text-align: center;
+    margin: -23px 10px 10px 85px;
+    
+}
+#server_time h6{
+    text-align: center;
+    font-family: Exocet;
+}
+
+#menu{
+    width: 100%;
+    height: 30px;
+    padding: 0px 5px 5px 0px;
+
+}
+#menu .wrap{
+    
+    padding: 5px;
+    height: 30px;
+    width: 890px;
+    padding-left: 44px ;
+    background: url('img/menu_bg.gif') repeat-x;
+    border-left: 1px solid #4e4d51;
+    border-right: 1px solid #4e4d51;
+    margin: 0 auto;
+    
+}#menu .wrap ul#menu{
+     margin: 0 auto;
+     width: 600px;
+     height: 30px;
+}
+
+
+
+
+/* Leftbar */
+/* -- Start Login -- */
+#leftbar h5{
+    overflow: auto;
+    float: left;
+}
+#user_login{
+    min-height: 150px;
+    margin-top: 50px;
+    background: #000 url('img/login_bg.png') repeat-y;
+    padding: 9px;
+    font-family: verdana;
+       -moz-border-radius: 	10px 10px 10px 10px;
+	   -webkit-border-radius:  10px 10px 10px 10px;
+}
+
+#user_login #title{
+   text-align: center;
+   margin-top: -38px;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Exocet;
+   
+}
+#user_login table{
+    background: transparent;
+	margin-top: 15px;
+    
+}
+#user_login #username, #user_login #password {
+    background: #c4c4c4;
+    font-size: 10px;
+    margin-bottom: 10px;
+    -moz-border-radius: 	10px 10px 10px 10px;
+	-webkit-border-radius:  10px 10px 10px 10px;
+	width: 100px;
+}
+#user_login form table{
+    margin-top: 40px;
+}
+#user_login form table tr label{
+    font-family: Exocet;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+#user_login #login{
+    border: 0px;
+    font-family: Exocet;
+    background: #ab5d00;
+    opacity: 0.7;
+    width: 160px;
+    margin-left: 20px;
+    margin-top: -12px;
+    font-size: 15px;
+}
+#user_login #login:hover{
+    opacity: 1.9;
+}
+/* -- End login -- */
+
+/* -- Start Links -- */
+#leftbar img{
+    margin-top: 10px;
+    width: 220px;
+    height: 80px;
+}
+#leftbar a img:hover{
+    opacity: 0.8;
+}
+/* -- End Links -- */
+
+/* -- Start POM -- */
+#pom{
+    
+}
+#pom #title{
+    font-family: verdana ;
+    font-weight: bold;
+   font-size: 15px;
+   font-weight: bold;
+   font-family: Exocet;
+    text-align: center;
+    color: #fff;
+    
+}
+#pom #content{
+    background: black url('img/pom_bg.png') repeat-y;
+    font-family: verdana;
+    overflow: auto;
+}
+#pom #content ul{
+    list-style: none;
+}
+#pom #content ul li{
+    font-size: 12px;
+}
+#pom #content img{
+    width: 100px;
+    margin: 40px 20px 10px 50px;
+    border: 5px solid #fff;
+    
+}
+
+/* -- End POM -- */
+/* -- End Leftbar --*/
+
+/*-- Start Content --*/
+/*-- Main Content --*/
+#top_middle{
+    background: url('img/top_content_middle.png') no-repeat;
+    height: 200px;
+     width: 460px;
+}
+#main_content{
+   margin-top: -650px;
+}
+#main_content #title{
+    
+   font-size: 30px;
+   font-weight: bold;
+   font-family: Exocet;
+    text-align: center;
+    color: #fff;
+}
+#main_content #content{
+    margin: 0; padding: 0;
+    padding: 10px;
+    -moz-border-radius: 	10px 10px 10px 10px;
+    -webkit-border-radius:  10px 10px 10px 10px;
+}
+#main_content #content .wrap{
+    min-height: 610px;
+    overflow: auto;
+	border: 1px solid #874906;
+	padding: 10px;
+}
+/* -- End Main Content --- */
+
+/* -- Start News and Updates --*/
+#news {
+    margin-top: 10px;
+}
+#news #title{
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Exocet;
+    text-align: center;
+    color: #fff;
+}
+#news #content{
+    margin-left:  -15px;
+    font-family: verdana;
+    font-size: 15px;
+    background: #000;
+    border: 1px solid #874906;
+    padding: 10px;
+    -moz-border-radius: 	10px 10px 10px 10px;
+    -webkit-border-radius:  10px 10px 10px 10px;
+    
+}#news table{
+    width: 100%;
+    font-size: 12px;
+    background:  #222;
+    
+}
+#news td.title a{
+    color: #ec7f01;
+    text-align: left;
+	font-size: 15px;
+}
+#news td.title a:hover{
+    text-decoration: underline;
+    
+}
+#news td.date{
+    color: #ec7f01;
+    text-align: right;
+	font-size: 15px;
+	font-weight: bold;
+}
+/* -- End News and Updates --*/
+/* -- End Content -- */
+
+
+/* -- Start Rightbar -- */
+#rightbars{
+    margin-top: -690px;
+    float: right;
+}
+/* Start Woe info -- */
+#woe_info{
+    font-family: Exocet;
+}
+
+#woe_info #title{
+    font-size: 20px;
+   font-weight: bold;
+   font-family: Exocet;
+    text-align: center;
+    color: #fff;
+}
+#woe_info #content{
+    background: #000 url('img/pom_bg.png') no-repeat;
+    font-family: verdana;
+    text-align: center;
+    overflow: auto;
+    min-height: 160px;
+    padding: 25px 10px 10px 10px;
+    color: #ec7f01;
+
+}
+/* End Woe info -- */
+
+/* -- Start GOM -- */
+#gom #title{
+       font-size: 15px;
+   font-weight: bold;
+   font-family: Exocet;
+    text-align: center;
+    color: #fff;
+    
+}
+#gom #content{
+    min-height: 195px;
+    font-family: Verdana;
+    background: black url('img/pom_bg.png') no-repeat;
+    overflow: auto;
+    
+}
+#gom #content ul{
+    list-style: none;
+}
+#gom #content ul li{
+    font-size: 12px;
+}
+#gom #content img{
+    width: 50px;
+    margin: 60px 20px 20px 80px;
+    border: 5px solid #fff;
+    
+}
+/* -- End GOM -- */
+
+/* -- Start SreesShots --- */
+#screenshots #title{
+       font-size: 15px;
+   font-weight: bold;
+   font-family: Exocet;
+    text-align: center;
+    color: #fff;
+}
+#screenshots #content{
+    background: black url('img/pom_bg.png') no-repeat;
+    min-height: 200px;
+    padding: 20px 0px 0px 0px;
+}
+#screenshots #content .wrap{
+    width: 126px;
+	height: 100px;
+    background: #fff;
+    height: 125px;
+    margin-left: 50px;
+    margin-top: 20px;margin-bottom: 20px;
+    
+}#screenshots #content .wrap img{
+	width: 126px;
+	height: 125px;
+}
+/* -- End SreesShots --- */
+/* -- Start FB Plugins --- */
+#fb_pugins #title{
+       font-size: 15px;
+   font-weight: bold;
+   font-family: Exocet;
+    text-align: center;
+    color: #fff;
+}
+#fb_pugins #content{
+    background: black url('img/box_bg.png') no-repeat;
+    min-height: 200px;
+    padding: 20px 0px 0px 0px;
+}
+#fb_pugins #content .wrap{
+    margin-left: 15px;
+    margin-top: 20px;margin-bottom: 20px;
+	overflow: hidden;
+    
+}
+/* -- End FB Plugins --- */
+
+/* --Start Footer -- */
+#footer{
+    font-family: Exocet;
+}
+/* -- Start Credits -- */
+#credits{
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+#credits ul{
+    list-style: none;
+    margin:0;
+}
+
+#credits #design_by{
+    margin: 0px 10px -10px 240px;
+    
+    
+}
+#credits #design_by ul li{
+    color: #ff8a00;
+    font-family: Exocet;
+}
+#credits #design_by ul li#name{
+    margin-top: 20px;
+    font-size: 42px;
+}
+#credits #coded_by{
+    font-family: Exocet;
+    margin-left: 35px;
+}
+
+#copyrights{
+    text-align: center;
+}#copyrights p{
+	color: #fff;
+}
+/* -- End Credits -- */
+/* --End Footer -- */
+
+
+
+/* --  Class -- */
+.fchokko{
+    font-family: verdana;
+}
+.s15{
+  font-size: 15px;  
+}
+.s20{
+  font-size: 20px;  
+}
+.s25{
+  font-size: 25px;  
+}
+
+
+
+
+
+
+
+
+
+
+/************************
+ *   Overide Flux CSS 
+ ************************/
+h3,h2,strong,p,p label,ol li,ul li,b,span,span.balance-text{
+    color: #fff;
+}
+#sidebar h4, #sidebar b,#sidebar label, #sidebar p, .credit-balance .balance-text, .credit-balance .balance-amount, .loginbox-admin-menu strong, .horizontal-table td span {
+    color: #000;
+}.credit-balance .balance-amount {
+	font-weight: bold;
+}
+.credit-balance {
+	float: right;
+	display: inline-block;
+	padding: 10px;
+	color: #000;
+	background-color: #eee;
+	border: 1px solid #ccc;
+    margin: 2px;
+}
+
+#loginbox span{
+    color: #000;
+    background: #fff;
+}.loginbox-admin-menu{
+    padding: 10px;
+}
+.notice strong{
+    color: #da0909;
+}
+h2{
+    color: #dc7300;
+    background: #1B191A;
+    padding: 5px;
+}p.message{
+    background: #fad4d4;
+    border: 1px solid #6d0909;
+    color: red;
+}
+#submenu{
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}#submenu a{
+        margin-top: 50px;
+}
+.sub-menu-item, .current-sub-menu {
+     padding: 5px;
+     
+ 
+}
+.current-sub-menu,.sub-menu-item:hover{
+    color: #fff;
+    background: #dc7300;
+}
+
+.search-form label, .search-form2 label {
+	display: inline-block;
+	margin: 0 0 3px 0;
+	font-size: 8pt;
+	font-style: italic;
+	color: #fff;
+}
+
+.horizontal-table th, .horizontal-table td {
+	font-size: 10px;
+	border: 1px solid #424242;
+}
+.vertical-table th {
+	padding: 5px 10px;
+	background-color: #fff;
+}
+table{
+    background: #fff;
+}
+.top-ranked td {
+	font-weight: bold;
+	color: #000;
+	background-color: #491F06;
+}.top-ranked td strong{
+    color: #dc7300;
+}
+
+/*****************************
+ * Textbox,Checkbox, Etc..
+ ****************************/
+input[type=text], input[type=password], input[type=file], textarea {
+	font-family: "Lucida Grande", "Lucida Sans", Verdana, Tahoma, sans-serif;
+	padding: 4px;
+	font-size: 10pt;
+	color: #444;
+	border: 1px solid #ccc;
+	outline-width: 0;
+  
+}select{
+    border: 1px solid #ccc;
+}
+input[type=button], input[type=submit], button[type=submit] {
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    cursor:  pointer;
+    -moz-border-radius: 	5px 5px 5px 5px;
+	-webkit-border-radius:  5px 5px 5px 5px;
+    padding: 5px;
+}
+
+.pages .page-num {
+	padding: 0 5px;
+}
+
+.pages .current-page {
+	color: #fff;
+    background: #dc7300;
+	font-weight: bold;
+}
+
+
+/******************
+ *  Jump To Page
+ ******************/
+.jump-to-page label{
+    color: #fff;
+}
+
+.important {
+	font-size: 120%;
+	color: #ec7f01;
+}
+.generic-form-table label {
+    color: #000;
+}
+
+
+
+/* Clock */
+.clock{
+    background: #fff;
+}
+.clock ul{ list-style: none; margin: 0px; padding: 0px; }
+.clock ul li{ color: #fff; float: left; margin: 3px -1px 5px 5px; font-size: 20px; font-weight: bold; font-family: verdana;}
+
+

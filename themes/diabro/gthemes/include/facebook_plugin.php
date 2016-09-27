@@ -1,0 +1,2 @@
+<?php if (!defined('FLUX_ROOT')) exit; ?>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F<?php echo $gtheme_config['facebook_page_name'] ?>&amp;width=190&amp;height=318&amp;show_faces=true&amp;colorscheme=dark&amp;stream=false&amp;border_color&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:190px; height:315px;" allowTransparency="true"></iframe>
